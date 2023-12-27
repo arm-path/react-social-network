@@ -6,7 +6,12 @@
 ## Начало работы:
 
 Зарегистрироваться на сайте https://social-network.samuraijs.com/ \
-src > api > samuraiAPI. Написать API KEY полученный из сайта.
+Перейти src / api / samuraiAPI и написать API KEY полученный из сайта.
+
+### `npm install`
+
+Установить зависимости.
+
 ### `npm start`
 
 Запускает приложение в режиме разработки.\
