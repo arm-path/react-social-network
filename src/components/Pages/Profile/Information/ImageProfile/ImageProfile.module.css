@@ -1,0 +1,11 @@
+.container {
+    grid-area: profile-image;
+}
+
+.container img {
+    width: 95%;
+}
+
+.container input:hover {
+    cursor: pointer;
+}

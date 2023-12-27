@@ -1,0 +1,52 @@
+.container {
+    grid-area: header;
+
+    width: 100%;
+    padding: 0.5rem;
+
+    background-color: #303b44;
+    border-bottom: 0.1rem solid darkgrey;
+
+    box-sizing: border-box;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 6rem 1fr 12rem;
+    grid-template-areas: "header-logo header-title header-user"
+}
+
+.logo {
+    grid-area: header-logo;
+
+    width: 3rem;
+}
+
+.title{
+    grid-area: header-title;
+
+    font-size: 1.3rem;
+
+    color: #ffffff;
+}
+
+.user{
+    float: right;
+    grid-area: header-user;
+
+    font-size: 1.3rem;
+
+    color: #ffffff;
+}
+
+.user a{
+    text-decoration: none;
+    font-size: 1.3rem;
+
+    color: #ffffff;
+}
+
+.exit:hover {
+    cursor: pointer;
+}
+

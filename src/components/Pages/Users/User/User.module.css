@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas: 'imageAction information byBirth';
+
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+
+    border: 1px solid #303b44;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #4f5a6e;
+}
+
+.imageAndAction {
+    grid-area: imageAction;
+
+}
+
+.image {
+    width: 100px;
+
+    border-radius: 50%;
+}
+
+.button {
+    padding: 0.2rem 1rem;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #4f5a6e;
+}
+
+.information {
+    grid-area: information;
+}
+
+.byBirth {
+    grid-area: byBirth
+}

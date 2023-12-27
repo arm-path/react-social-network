@@ -1,0 +1,13 @@
+.container {
+
+}
+
+.sent {
+    color: darkgreen;
+    text-align: right;
+}
+
+.inbox {
+    color: darkblue;
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+.container {
+    grid-area: text-image;
+}
+
+.containerFormElement {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.input {
+    width: 60%;
+}
+
+.textarea {
+    width: 60%;
+}
+
+.action {
+    padding: 0.2rem 1rem;
+}
+
+.action:hover {
+    cursor: pointer;
+    box-shadow: 5px 3px 3px #a7b3cb;
+}
+
+.error{
+    text-align: left;
+    font-weight: bold;
+    color: #dc3747;
+}

@@ -1,0 +1,29 @@
+.container {
+    grid-area: navigation;
+
+    padding: 1rem;
+
+    background-color: #4f5a6e;
+
+    box-sizing: border-box;
+}
+
+.containerLink {
+    margin-bottom: 1rem;
+
+    text-align: center;
+}
+
+.link {
+    font-size: 1.3rem;
+
+    color: #a7b3cb;
+    text-decoration: none;
+}
+
+.active {
+    font-size: 1.3rem;
+
+    color: #ffffff;
+    text-decoration: none;
+}

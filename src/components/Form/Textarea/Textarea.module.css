@@ -1,0 +1,15 @@
+.text {
+    width: 60%;
+}
+
+.errorElement {
+    width: 70%;
+
+    background-color: #fce0e4;
+    border: 1px solid #dc3747;
+}
+
+.errorText {
+    font-weight: bold;
+    color: #dc3747;
+}

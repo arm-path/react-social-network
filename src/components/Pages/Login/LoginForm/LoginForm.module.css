@@ -1,0 +1,24 @@
+.text {
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.containerField {
+    text-align: center;
+}
+
+.action {
+    width: 53%;
+    padding: 0.2rem 1.5rem;
+}
+
+.action:hover {
+    cursor: pointer;
+}
+
+.error{
+    text-align: center;
+    font-weight: bold;
+    color: #dc3747;
+}
